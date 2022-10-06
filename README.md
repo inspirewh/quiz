@@ -17,10 +17,10 @@ A timed Afriacan Animals quiz using javascript fundamentals that stores high sco
 ## Deployed Application URL
 The quiz live URL:
 
-[The React Portfolio Live URL here](https://inspirewh.github.io/oliviaportfolio/)
+[The Quiz Live URL here](https://inspirewh.github.io/quiz/)
 
 ## Installation Instructions
-This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL https://inspirewh.github.io/oliviaportfolio/.
+This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL https://inspirewh.github.io/quiz/
 
 ## Usage
  This application displays work and about em information to potential employers and clients.
