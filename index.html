@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    
+    
+<!-- timer -->
+<section id="section-timer" class="hide">
+    <div>
+        <a href="#" id="viewHighScore">View High Scores</a>
+    </div>
+    <div> Current Time is <h3 id="timer">60</h3></div>
+</section>
+
+    <!-- start game button -->
+<section id="section-landing">
+    <h1> Welcome to my quiz</h1>
+   
+    <button class="btn btn-primary m-1" id="start-game">Start</button>
+</section>
+
+
+    <!-- question section -->
+<section id="section-question" class="hide">
+    <!-- questions -->
+    <h3 id=question-title>question 1 </h3>
+    <!-- multiple choice selection -->
+    <ul id="question-choices">
+        <li><button class="question-choice">answer 1</button></li>
+        <li><button class="question-choice">answer 2</button></li>
+        <li><button class="question-choice">answer 3</button></li>
+    </ul>
+    <!-- answer results - correct or incorrect -->
+    <p>Answer: <span id = "result"></span></p>
+</section>
+
+<!-- end game screen (show high score) -->
+<section id="section-end" class="hide" >
+    <h1>Game Over</h1>
+    <p>Your score is: <span id="result-span">10</span></p>
+    <!-- form to enter initials -->
+    <!-- button to save initials -->
+    <form id="form-initial">
+        <input type="text" placeholder="Enter your Initials" id="input-initials">
+        <button type="submit" id="saveBtn" >Save</button>
+    </form>
+</section>
+
+<!-- all the high scores page -->
+<section id="section-highscore" class="hide">
+    <h1>Highscores</h1>
+    <p><span id="scoreList"></span></p>
+    <!--  bring the user back to the homepage -->
+    <button type="submit" id="homeBtn">Back to home</button>
+    <button type="submit" id="clearScoresBtn">Clear High Scores</button>
+</section>
+
+
+    <!--<ul>
+        <li class="highscore-items">Jess - 20</li>
+        <li class="highscore-items">Mary - 10</li>
+        <li class="highscore-items">Jake - 5</li>
+    </ul>-->
+
+
+
+<script src="assets/js/questions.js"></script>
+<script src="assets/js/app.js"></script>
+
+
+</body>
+
+</html>
